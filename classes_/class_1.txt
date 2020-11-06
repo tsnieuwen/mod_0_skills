@@ -1,0 +1,13 @@
+Class: Pie
+
+Attributes:
+temperature (integer)
+calories (integer)
+ingredients (array)
+is_vegan (boolean)
+
+Methods:
+add_flavor (adds butter to ingredients if not already included. also increase calories by 300)
+order_vegan (removes "egg", "milk" and "butter" from ingredients. changes is_vegan to true it not already true)
+over_bake (increases temperature by 15)
+a_la_mode: (decreases temperature by 20)
