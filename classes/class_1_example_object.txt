@@ -1,0 +1,13 @@
+Object: Apple_Pie
+
+Attributes:
+temperature (integer): 150
+calories (integer): 400
+ingredients (array): ["apples", "egg", "flour", "butter"]
+is_vegan (boolean): false
+
+Methods:
+add_flavor: calories = 700
+order_vegan: ingredients = ["apples", "flour"]. is_vegan = true
+over_bake: 165
+a_la_mode: 145
